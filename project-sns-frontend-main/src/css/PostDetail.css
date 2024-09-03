@@ -68,9 +68,14 @@
     cursor: pointer;
 }
 
+.post-detail-name{
+    font-size: 1.1rem;
+    font-size: bold;
+    margin: 10px;
+}
+
 .post-detail-content {
     font-size: 1.1rem;
-    font-weight: bold;
     margin: 10px;
 }
 

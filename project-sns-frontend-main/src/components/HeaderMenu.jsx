@@ -118,7 +118,7 @@ function HeaderMenu() {
                         <ul>
                             <li onClick={handleMenuClick}><img src={link}/>링크 복사</li>
                             <li onClick={handleMenuClick}><img src={option}/>설정</li>
-                            <li onClick={handleMenuClick}><img src={logout}/>로그아웃</li>
+                            <Link to="/login"><li onClick={handleMenuClick}><img src={logout}/>로그아웃</li></Link>
                         </ul>
                     </div>
                 )}

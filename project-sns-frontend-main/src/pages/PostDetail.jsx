@@ -165,7 +165,9 @@ export default function PostDetail() {
                             src={`http://localhost:8080/uploads/${post.images[0].fileName}`}
                             alt="Post"
                         />
-                        <p className='post-detail-content'>{post.content}</p>
+                        <p className='post-detail-content' style={{ whiteSpace: 'pre-wrap' }}>
+                                  {post.content}
+                        </p>
                     </>
                 )}
 
